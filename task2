@@ -10,12 +10,12 @@
   </head>
   <body>
     <header>
-      <h1>Aditya Konda</h1>
-      <p>Web Developer | Full Stack Developer</p>
+      <h1>Shubham Garde</h1>
+      <p>Full Stack Web Developer | Full Stack Developer</p>
     </header>
 
     <section id="about">
-      <img src="profile.jpg" alt="Aditya Konda" />
+      <img src="profile.jpg" alt="Shubham Garde" />
     </section>
 
     <section id="about1">
@@ -45,11 +45,11 @@
     </section>
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: adityakonda04@gmail.com</p>
-      <p>Phone: 808039260</p>
+      <p>Email: shubhamgarde302@gmail.com</p>
+      <p>Phone: 9797002262</p>
     </section>
     <footer>
-      <p>&copy; 2023 Aditya Konda. All rights reserved.</p>
+      <p>&copy; 2023 Shubham Garde. All rights reserved.</p>
     </footer>
   </body>
 </html>
