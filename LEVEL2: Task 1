@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="left">
+                <img class="icn" src="/portfolio/images/azb-removebg-preview.png" alt="img">
+                Aurangzeb's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</li></a>
+                    <li><a href="#about">About</li></a>
+                    <li><a href="#projects">Projects</li></a>
+                    <li><a href="#contact">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <h1>HEY,MY NAME IS <span class="blue" >SHUBHAM GARDE</span></h1>
+                <div>and I am a passionate <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="https://drive.google.com/file/d/1W5wTb-aTYRJvviYowX4ymj5RMpvWtgOi/view?usp=sharing">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/Md-Aurangzeb">Visit Github</a></button>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <div id="about" class="about">
+        <div class="about-first">
+            <h2>
+                <span>ABOUT ME</span>
+            </h2>
+        </div>
+        <div class="about-second">
+            <div class="about-left">
+                <h3>Get to know me!</h3>
+                <p>Hey! It's Shubham Garde and I'm a Web Developer.  I am eager to put my skills to the test!. </p>
+                <p>
+                    I aim to contribute to web development projects to enhance me development skill and knowledge.
+                </p>
+                <div>
+                    <button class="btn">Contact</button>
+                </div>
+            </div>
+                <div class="about-right">
+                <h3>My Skills</h3>
+                <div class="skills">HTML</div>
+                <div class="skills">CSS</div>
+                <div class="skills">JavaScript</div>
+                <div class="skills">Node</div>
+                <div class="skills">MongoDB</div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="projects">
+            <h2>PROJECTS</h2>
+        <div class="project">
+            <div class="project-left">
+                <img src="/portfolio/images/todo.png" alt="img">
+            </div>
+            <div class="project-right">
+                <h3>Todo List</h3>
+                <p>The todolist is a web application developed to help users organize their tasks and manage their daily activities effectively. It provides a user-friendly interface where users can create and track their to-do items.</p>
+                <div class="buttons">
+                    <button class="btn"><a href="https://todolist-q7hi.onrender.com">live</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-left">
+                <img src="/portfolio/images/simon.png" alt="img">
+            </div>
+            <div class="project-right">
+                <h3>Simon Game</h3>
+                <p>The Simon Game is an interactive web application built using HTML, CSS, and JavaScript. It is a classic memory game that challenges players to repeat a sequence of colors and sounds in correct order.</p>
+                <div class="buttons">
+                    <button class="btn"><a href="https://simon-game-jgxn.onrender.com">live</a></button>
+                </div>
+            </div>
+        </div><div class="project">
+            <div class="project-left">
+                <img src="/portfolio/images/drum.png" alt="img">
+            </div>
+            <div class="project-right">
+                <h3>Drum Kit</h3>
+                <p>The Drum Kit is an interactive web application built using HTML, CSS, and JavaScript. It offers a virtual drum set experience, allowing users to play seven different musical instruments and create their own beats.</p>
+                <div class="buttons">
+                    <button class="btn"><a href="https://drum-kit-8fwd.onrender.com">live</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact">
+        <h2>CONTACT ME</h2>
+        <div class="contact-form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter Your Name">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Your Email">
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                <button style="margin-top: 0;" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Mady by Shubham
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
